@@ -1,4 +1,271 @@
-<!DOCTYPE html><html lang="zh-CN"><head><title>Markdown Style test - 余火灰烬</title><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="灰烬"><meta name="description" content="This post is originated from here and is used for testing..."><meta name="keywords" content=""><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/rss2.xml"><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><meta name="theme-color" content="#ffffff"><link rel="shortcut icon" type="image/x-icon" href="/avatar.png"><link rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous"><link rel="stylesheet" href="https://lib.baomitu.com/KaTeX/0.15.2/katex.min.css" crossorigin="anonymous"><link rel="stylesheet" href="/css/journal.css?32005528"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Sans+SC:wght@300%3B400%3B600&family=Source+Sans+Pro:wght@400%3B600&family=Lato:wght@400%3B500&family=Hind+Vadodara:wght@300%3B400&family=Montserrat&family=Fira+Code&family=Material+Icons&display=block" crossorigin="anonymous"><meta name="generator" content="Hexo 6.3.0"></head><body><div id="top"></div><div id="app"><div class="single-column-drawer-container" ref="drawer" v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }"><div class="drawer-content"><div class="drawer-menu"><a class="a-block drawer-menu-item false" href="https://venat.me">首页 </a><a class="a-block drawer-menu-item false" href="/archives">归档 </a><a class="a-block drawer-menu-item false" href="/tags">标签 </a><a class="a-block drawer-menu-item false" href="/rss2.xml">RSS</a></div></div></div><transition name="fade"><div v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div></transition><nav ref="navBar" class="navbar sticky-top navbar-light single-column-nav-container"><div ref="navBackground" class="nav-background"></div><div class="container container-narrow nav-content"><button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer"><i class="material-icons">menu</i></button> <a ref="navTitle" class="navbar-brand" href="/">余火灰烬</a></div></nav><div class="single-column-header-container" ref="pageHead" v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }"><a href="/"><div class="single-column-header-title">余火灰烬</div><div class="single-column-header-subtitle">そしてこの空赤く染めて</div></a></div><div ref="sideContainer" class="side-container"><a class="a-block nav-head false" href="/"><div class="nav-title">余火灰烬</div><div class="nav-subtitle">そしてこの空赤く染めて</div></a><div class="nav-link-list"><a class="a-block nav-link-item false" href="/archives">归档 </a><a class="a-block nav-link-item false" href="/tags">标签 </a><a class="a-block nav-link-item false" href="/rss2.xml">RSS</a></div><div class="nav-footer">Powered by <a href="https://hexo.io/" target="_blank" rel="noreferrer noopener">Hexo</a><br>Theme <a href="https://github.com/Menci/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal</a> by <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a><br>&copy; 2023 <a href="https://venat.me">灰烬<i class="material-icons">favorite</i></a></div></div><div ref="extraContainer" class="extra-container"><div class="pagination"><a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }"><i class="material-icons pagination-action-icon">keyboard_arrow_up</i></a></div></div><div ref="streamContainer" class="stream-container"><div class="post-list-container post-list-container-shadow"><div class="post"><div class="post-head-wrapper-text-only" style="background-image:url('')"><div class="post-title">Markdown Style test<div class="post-meta"><time datetime="2018-07-24T15:31:06.000Z" itemprop="datePublished">2018-07-24 </time>&nbsp; <i class="material-icons">label</i> <a href="/tags/Foo/">Foo</a>, <a href="/tags/Bar/">Bar</a></div></div></div><div class="post-body-wrapper"><div class="post-body"><p>This post is originated from <a target="_blank" rel="noopener" href="https://gist.github.com/apackeer/4159268">here</a> and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.</p><span id="more"></span><hr><h2 id="Headers">Headers</h2><pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token title important"><span class="token punctuation">#</span> H1</span>
+<!DOCTYPE html><html lang="zh-CN"><head><title>Markdown Style test - 余火灰烬</title><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="灰烬"><meta name="description" content="This post is originated from here and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.
+
+
+Headers
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+Alternatively, for H1 and H2, an underline-ish style:
+
+Alt-H1
+======
+
+Alt-H2
+------
+H1
+H2
+H3
+H4
+H5
+H6
+Alternatively, for H1 and H2, an underline-ish style:
+Alt-H1
+Alt-H2
+Emphasis
+Emphasis, aka italics, with *asterisks* or _underscores_.
+
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
+
+Combined emphasis with **asterisks and _underscores_**.
+
+Strikethrough uses two tildes. ~~Scratch this.~~
+Emphasis, aka italics, with asterisks or underscores.
+Strong emphasis, aka bold, with asterisks or underscores.
+Combined emphasis with asterisks and underscores.
+Strikethrough uses two tildes. Scratch this.
+Lists
+1. First ordered list item
+2. Another item
+  * Unordered sub-list.
+1. Actual numbers don&#39;t matter, just that it&#39;s a number
+  1. Ordered sub-list
+4. And another item.
+
+   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we&#39;ll use three here to also align the raw Markdown).
+
+   To have a line break without a paragraph, you will need to use two trailing spaces.  
+   Note that this line is separate, but within the same paragraph.  
+   (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+
+* Unordered list can use asterisks
+- Or minuses
++ Or pluses
+- Paragraph In unordered list
+
+  For example like this.
+
+Common Paragraph with some text.
+And more text.
+
+First ordered list item
+Another item
+
+
+Unordered sub-list.
+
+
+
+Actual numbers don’t matter, just that it’s a number
+
+
+Ordered sub-list
+
+
+And another item.
+You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we’ll use three here to also align the raw Markdown).
+To have a line break without a paragraph, you will need to use two trailing spaces.
+Note that this line is separate, but within the same paragraph.
+(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+
+
+
+Unordered list can use asterisks
+
+
+Or minuses
+
+
+Or pluses
+
+
+
+Paragraph In unordered list
+For example like this.
+
+
+Common Paragraph with some text.
+And more text.
+Inline HTML
+&amp;lt;p&gt;To reboot your computer, press &amp;lt;kbd&gt;ctrl&amp;lt;/kbd&gt;+&amp;lt;kbd&gt;alt&amp;lt;/kbd&gt;+&amp;lt;kbd&gt;del&amp;lt;/kbd&gt;.&amp;lt;/p&gt;
+To reboot your computer, press ctrl+alt+del.
+&amp;lt;dl&gt;
+    &amp;lt;dt&gt;Definition list&amp;lt;/dt&gt;
+    &amp;lt;dd&gt;Is something people use sometimes.&amp;lt;/dd&gt;
+
+    &amp;lt;dt&gt;Markdown in HTML&amp;lt;/dt&gt;
+    &amp;lt;dd&gt;Does *not* work **very** well. Use HTML &amp;lt;em&gt;tags&amp;lt;/em&gt;.&amp;lt;/dd&gt;
+&amp;lt;/dl&gt;
+
+    Definition list
+    Is something people use sometimes.
+&amp;lt;dt&amp;gt;Markdown in HTML&amp;lt;/dt&amp;gt;
+&amp;lt;dd&amp;gt;Does *not* work **very** well. Use HTML &amp;lt;em&amp;gt;tags&amp;lt;/em&amp;gt;.&amp;lt;/dd&amp;gt;
+
+
+Links
+[I&#39;m an inline-style link](https://www.google.com)
+
+[I&#39;m an inline-style link with title](https://www.google.com &#34;Google&#39;s Homepage&#34;)
+
+[I&#39;m a reference-style link][Arbitrary case-insensitive reference text]
+
+[I&#39;m a relative reference to a repository file](../blob/master/LICENSE)
+
+[You can use numbers for reference-style link definitions][1]
+
+Or leave it empty and use the [link text itself]
+
+Some text to show that the reference links can follow later.
+
+[arbitrary case-insensitive reference text]: https://hexo.io
+[1]: https://hexo.io/docs/
+[link text itself]: https://hexo.io/api/
+I’m an inline-style link
+I’m an inline-style link with title
+I’m a reference-style link
+I’m a relative reference to a repository file
+You can use numbers for reference-style link definitions
+Or leave it empty and use the link text itself
+Some text to show that the reference links can follow later.
+Images
+hover to see the title text:
+
+Inline-style:
+
+![alt text](https://hexo.io/icon/favicon-196x196.png &#34;Logo Title Text 1&#34;)
+
+Reference-style:
+![alt text][logo]
+
+[logo]: https://hexo.io/icon/favicon-196x196.png &#34;Logo Title Text 2&#34;
+hover to see the title text:
+Inline-style:
+
+Reference-style:
+
+Code and Syntax Highlighting
+Inline code has back-ticks around it.
+var s = &#34;JavaScript syntax highlighting&#34;;
+alert(s);
+s = &#34;Python syntax highlighting&#34;
+print s
+No language indicated, so no syntax highlighting.
+But let&amp;#39;s throw in a &amp;lt;b&amp;gt;tag&amp;lt;&amp;#x2F;b&amp;gt;.
+Tables
+|                |ASCII                          |HTML                         |
+|----------------|-------------------------------|-----------------------------|
+|Single backticks|`&#39;Isn&#39;t this fun?&#39;`            |&#39;Isn&#39;t this fun?&#39;            |
+|Quotes          |`&#34;Isn&#39;t this fun?&#34;`            |&#34;Isn&#39;t this fun?&#34;            |
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+
+
+
+
+ASCII
+HTML
+
+
+
+
+Single backticks
+&#39;Isn&#39;t this fun?&#39;
+‘Isn’t this fun?’
+
+
+Quotes
+&amp;quot;Isn&#39;t this fun?&amp;quot;
+“Isn’t this fun?”
+
+
+Dashes
+-- is en-dash, --- is em-dash
+– is en-dash, — is em-dash
+
+
+
+Colons can be used to align columns.
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned |  |
+| col 2 is      | centered      |    |
+| zebra stripes | are neat      |   
+
+
+
+Tables
+Are
+Cool
+
+
+
+
+col 3 is
+right-aligned
+
+
+
+col 2 is
+centered
+
+
+
+zebra stripes
+are neat
+
+
+
+
+The outer pipes (|) are optional, and you don’t need to make the raw Markdown line up prettily. You can also use inline Markdown.
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+
+
+Markdown
+Less
+Pretty
+
+
+
+
+Still
+renders
+nicely
+
+
+1
+2
+3
+
+
+
+
+You can find more information about LaTeX mathematical expressions here.
+
+Blockquotes
+
+Blockquotes are very handy in email to emulate reply text.
+This line is part of the same quote.
+
+Quote break.
+
+This is a very long line that will still be quoted properly when it wraps. Oh boy let’s keep writing to make sure this is long enough to actually wrap for ever..."><meta name="keywords" content=""><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/rss2.xml"><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><meta name="theme-color" content="#ffffff"><link rel="shortcut icon" type="image/x-icon" href="/avatar.png"><link rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous"><link rel="stylesheet" href="https://lib.baomitu.com/KaTeX/0.15.2/katex.min.css" crossorigin="anonymous"><link rel="stylesheet" href="/css/journal.css?79406947"><link rel="stylesheet" href="https://fonts.loli.net/css2?family=Noto+Sans+SC:wght@300%3B400%3B600&family=Source+Sans+Pro:wght@400%3B600&family=Lato:wght@400%3B500&family=Hind+Vadodara:wght@300%3B400&family=Montserrat&family=Fira+Code&family=Material+Icons&display=block" crossorigin="anonymous"><meta name="generator" content="Hexo 6.3.0"></head><body><div id="top"></div><div id="app"><div class="single-column-drawer-container" ref="drawer" v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }"><div class="drawer-content"><div class="drawer-menu"><a class="a-block drawer-menu-item false" href="https://venat.me">首页 </a><a class="a-block drawer-menu-item false" href="/archives">归档 </a><a class="a-block drawer-menu-item false" href="/tags">标签 </a><a class="a-block drawer-menu-item false" href="/rss2.xml">RSS</a></div></div></div><transition name="fade"><div v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div></transition><nav ref="navBar" class="navbar sticky-top navbar-light single-column-nav-container"><div ref="navBackground" class="nav-background"></div><div class="container container-narrow nav-content"><button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer"><i class="material-icons">menu</i></button> <a ref="navTitle" class="navbar-brand" href="/">余火灰烬</a></div></nav><div class="single-column-header-container" ref="pageHead" v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }"><a href="/"><div class="single-column-header-title">余火灰烬</div><div class="single-column-header-subtitle">そしてこの空赤く染めて</div></a></div><div ref="sideContainer" class="side-container"><a class="a-block nav-head false" href="/"><div class="nav-title">余火灰烬</div><div class="nav-subtitle">そしてこの空赤く染めて</div></a><div class="nav-link-list"><a class="a-block nav-link-item false" href="/archives">归档 </a><a class="a-block nav-link-item false" href="/tags">标签 </a><a class="a-block nav-link-item false" href="/rss2.xml">RSS</a></div><div class="nav-footer">Powered by <a href="https://hexo.io/" target="_blank" rel="noreferrer noopener">Hexo</a><br>Theme <a href="https://github.com/Menci/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal</a> by <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a><br>&copy; 2023 <a href="https://venat.me">灰烬<i class="material-icons">favorite</i></a></div></div><div ref="extraContainer" class="extra-container"><div class="pagination"><a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }"><i class="material-icons pagination-action-icon">keyboard_arrow_up</i></a></div></div><div ref="streamContainer" class="stream-container"><div class="post-list-container post-list-container-shadow"><div class="post"><div class="post-head-wrapper-text-only" style="background-image:url('')"><div class="post-title">Markdown Style test<div class="post-meta"><time datetime="2018-07-24T15:31:06.000Z" itemprop="datePublished">2018-07-24 </time>&nbsp; <i class="material-icons">label</i> <a href="/tags/Foo/">Foo</a>, <a href="/tags/Bar/">Bar</a></div></div></div><div class="post-body-wrapper"><div class="post-body"><p>This post is originated from <a target="_blank" rel="noopener" href="https://gist.github.com/apackeer/4159268">here</a> and is used for testing markdown style. This post contains nearly every markdown usage. Make sure all the markdown elements below show up correctly.</p><span id="more"></span><hr><h2 id="Headers">Headers</h2><pre class="line-numbers language-markdown" data-language="markdown"><code class="language-markdown"><span class="token title important"><span class="token punctuation">#</span> H1</span>
 <span class="token title important"><span class="token punctuation">##</span> H2</span>
 <span class="token title important"><span class="token punctuation">###</span> H3</span>
 <span class="token title important"><span class="token punctuation">####</span> H4</span>
@@ -114,4 +381,4 @@ This is another regular paragraph.<span aria-hidden="true" class="line-numbers-r
 
 Pure markdown version:
 
-<span class="token url">[<span class="token content">![IMAGE ALT TEXT HERE</span>](<span class="token url">https://img.youtube.com/vi/ARted4RniaU/0.jpg</span>)</span>](https://www.youtube.com/watch?v=ARted4RniaU)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p><a href="https://www.youtube.com/watch?feature=player_embedded&v=ARted4RniaU" target="_blank"><img src="https://img.youtube.com/vi/ARted4RniaU/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"></a></p><p>Pure markdown version:</p><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ARted4RniaU"><img src="https://img.youtube.com/vi/ARted4RniaU/0.jpg" alt=""></a></p></div></div><nav class="post-pagination"><a class="newer-posts" href="/posts/2645972709/">上一篇<br>Code Highlight Style test </a><span class="page-number"></span> <a class="older-posts" href="/posts/3887315804/">下一篇<br>Images</a></nav><div class="post-comment-wrapper-giscus"><div class="giscus"></div></div></div></div><div class="single-column-footer">Powered by <a href="https://hexo.io/" target="_blank" rel="noreferrer noopener">Hexo</a><br>Theme <a href="https://github.com/Menci/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal</a> by <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a><br>&copy; 2023 <a href="https://venat.me">灰烬<i class="material-icons">favorite</i></a></div></div></div><script src="https://lib.baomitu.com/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script><script src="https://lib.baomitu.com/popper.js/1.14.4/umd/popper.min.js" crossorigin="anonymous"></script><script src="https://lib.baomitu.com/twitter-bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script><script src="https://lib.baomitu.com/vue/2.5.17/vue.min.js" crossorigin="anonymous"></script><script src="https://lib.baomitu.com/smooth-scroll/14.2.1/smooth-scroll.min.js" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/gh/Kanv/EmberAsh@main/cdn/js/prism.js" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/gh/Kanv/EmberAsh@main/cdn/js/view-image.min.js" crossorigin="anonymous"></script><script src="/js/journal.min.js?64432275"></script><script>window.ViewImage&&ViewImage.init("img")</script><script src="https://giscus.app/client.js" data-repo="Kanv/EmberAsh" data-repo-id="R_kgDOJt73wA" data-category="Comments" data-category-id="DIC_kwDOJt73wM4CXIC0" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-theme="https://cdn.jsdelivr.net/gh/Kanv/EmberAsh@main/cdn/css/giscus.css" data-lang="zh-CN" async></script></body></html>
+<span class="token url">[<span class="token content">![IMAGE ALT TEXT HERE</span>](<span class="token url">https://img.youtube.com/vi/ARted4RniaU/0.jpg</span>)</span>](https://www.youtube.com/watch?v=ARted4RniaU)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p><a href="https://www.youtube.com/watch?feature=player_embedded&v=ARted4RniaU" target="_blank"><img src="https://img.youtube.com/vi/ARted4RniaU/0.jpg" alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"></a></p><p>Pure markdown version:</p><p><a target="_blank" rel="noopener" href="https://www.youtube.com/watch?v=ARted4RniaU"><img src="https://img.youtube.com/vi/ARted4RniaU/0.jpg" alt=""></a></p></div></div><nav class="post-pagination"><a class="newer-posts" href="/posts/2645972709/">上一篇<br>Code Highlight Style test </a><span class="page-number"></span> <a class="older-posts" href="/posts/3887315804/">下一篇<br>Images</a></nav><div class="post-comment-wrapper-giscus"><div class="giscus"></div></div></div></div><div class="single-column-footer">Powered by <a href="https://hexo.io/" target="_blank" rel="noreferrer noopener">Hexo</a><br>Theme <a href="https://github.com/Menci/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal</a> by <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a><br>&copy; 2023 <a href="https://venat.me">灰烬<i class="material-icons">favorite</i></a></div></div></div><script src="https://lib.baomitu.com/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script><script src="https://lib.baomitu.com/popper.js/1.14.4/umd/popper.min.js" crossorigin="anonymous"></script><script src="https://lib.baomitu.com/twitter-bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script><script src="https://lib.baomitu.com/vue/2.5.17/vue.min.js" crossorigin="anonymous"></script><script src="https://lib.baomitu.com/smooth-scroll/14.2.1/smooth-scroll.min.js" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/gh/Kanv/EmberAsh@main/cdn/js/view-image.min.js" crossorigin="anonymous"></script><script src="/js/journal.min.js?41964973"></script><script>window.ViewImage&&ViewImage.init("img")</script><script src="https://giscus.app/client.js" data-repo="Kanv/EmberAsh" data-repo-id="R_kgDOJt73wA" data-category="Comments" data-category-id="DIC_kwDOJt73wM4CXIC0" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-theme="https://cdn.jsdelivr.net/gh/Kanv/EmberAsh@main/cdn/css/giscus.css" data-lang="zh-CN" async></script></body></html>
