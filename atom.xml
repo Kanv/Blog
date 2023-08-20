@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>余火灰烬</title>
+  <icon>https://venat.me/avatar.png</icon>
+  <subtitle>感じる！全力です！</subtitle>
+  <link href="https://venat.me/atom.xml" rel="self"/>
+  
+  <link href="https://venat.me/"/>
+  <updated>2023-08-20T16:12:07.430Z</updated>
+  <id>https://venat.me/</id>
+  
+  <author>
+    <name>灰烬</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>便利屋68×補習授業部</title>
+    <link href="https://venat.me/posts/207740171/"/>
+    <id>https://venat.me/posts/207740171/</id>
+    <published>2023-08-20T16:06:16.000Z</published>
+    <updated>2023-08-20T16:12:07.430Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;twitter：&lt;a href=&quot;https://twitter.com/0kashl_poke&quot;&gt;おかし&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;汉化：&lt;a href=&quot;https://weibo.com/u/7642466903&quot;&gt;@大吉凛凛贰&lt;/a&gt;&lt;/p&gt;
+&lt;img</summary>
+        
+      
+    
+    
+    
+    
+    <category term="蔚蓝档案" scheme="https://venat.me/tags/%E8%94%9A%E8%93%9D%E6%A1%A3%E6%A1%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>做点什么</title>
+    <link href="https://venat.me/posts/1320522795/"/>
+    <id>https://venat.me/posts/1320522795/</id>
+    <published>2023-08-20T14:53:34.000Z</published>
+    <updated>2023-08-20T15:48:11.583Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Do</summary>
+        
+      
+    
+    
+    
+    
+    <category term="杂物" scheme="https://venat.me/tags/%E6%9D%82%E7%89%A9/"/>
+    
+  </entry>
+  
+</feed>
